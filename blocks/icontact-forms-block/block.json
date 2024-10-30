@@ -1,0 +1,40 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "icontact-forms/icontact-forms-block",
+    "title": "iContact forms",
+    "category": "widgets",
+    "icon": "email-alt2",
+    "description": "Lets you pick your iContact form to use on your page.",
+    "keywords": [ "iContact", "iContact forms", "lead form", "email", "forms", "marketing", "newsletter", "icform" ],
+    "version": "1.0.0",
+    "textdomain": "icontact-forms",
+    "attributes": {
+        "formid": {
+            "type": "string",
+            "source": "html"
+        },
+        "cfid": {
+            "type": "string",
+            "source": "html"
+        },
+        "cid": {
+            "type": "string",
+            "source": "html"
+        }
+    },
+    "example": {
+        "attributes": {
+            "preview": true
+        }
+    },    
+    "supports": {
+        "align": true
+    },
+    "styles": [
+        { "name": "default", "label": "Default", "isDefault": true }
+    ],
+    "editorScript": "icontact-forms-block-block-editor",
+    "editorStyle": "icontact-forms-block-block-editor",
+    "style": "icontact-forms-block-block"
+}

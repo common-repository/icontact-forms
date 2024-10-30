@@ -1,0 +1,193 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.icontact-forms .inline {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.icontact-forms .clearBoth {
+    clear: both;
+}
+
+.icontact-forms-top-menu {
+    background: white;
+    margin-left: -20px;
+    padding-left: 15px;
+}
+
+.icontact-forms ul li .active {
+    font-weight: bold;
+}
+
+.icontact-forms .column {
+    display: inline-block;
+    margin: 10px 10px 5px 20px;    
+}
+
+.icontact-forms .submenu li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 16px;    
+    padding-bottom: 10px;
+    padding-top: 31px;      
+}
+
+.icontact-forms .submenu ul {
+    position: absolute;
+    margin-top: -43px;
+}
+
+.icontact-forms .submenu li a {
+    text-decoration: none;
+}
+
+.icontact-forms .submenu li:hover {
+    background: #d3d3d326;
+}
+
+.icontact-forms .connected {
+    float:right;
+}
+
+.icontact-forms .connected .status {
+    top: 7px;
+    position: relative;
+}
+
+.icontact-forms .logged-in {
+    color: green;
+}
+  
+.icontact-forms .logged-out {
+    color: red;
+}
+
+.icontact-forms span .dashicons {
+    margin-top: 4px;
+}
+
+.icontact-forms .col {
+    flex: 1;     
+}
+
+#icontact-forms-about .message {
+    margin-left: 1em;
+}
+
+#icontact-forms-about .message p {
+    margin-top: 0;
+}
+
+#icontact-forms-about ul li {
+    list-style-type: disc;
+    margin-left: 3em;
+}
+
+.icontact-forms-forms-table .wp-list-table .column-name { 
+    width: 40%; 
+}
+.icontact-forms-forms-table .wp-list-table .column-updated { 
+    width: 10%;
+}
+.icontact-forms-forms-table .wp-list-table .column-shortcode { 
+    width: 20%; 
+}
+.icontact-forms-forms-table .wp-list-table .column-lists { 
+    width: 30%;
+}
+
+.icontact-forms-forms-table .wp-list-table .column-name td { 
+    font-weight: bold;
+}
+.icform-folders-modal-content,
+.icform-folders-modal-content .submit {
+    text-align: center;
+}
+
+.icform-folders-modal-content p {
+    font-size: large;
+}
+
+.icform-folders-modal-content select {
+    width: 50%;
+}
+
+.icform-folders-modal-content .submit .button {
+    width: 25%;
+}
+
+.icontact-forms #api-credentials input {
+    width: 275px;
+}
+
+.icontact-forms_page_icontact-forms-forms #TB_ajaxContent {
+    height: 100% !important;
+    margin-top: 30px;
+}
+
+#icform-table-toolbox p {
+    float: none;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#icform-table-toolbox .searchbox {
+    float: right;
+    padding-right: 0px;
+}
+
+#icform-confirmation-buttons button {
+    margin-right: 20px;
+}
+
+.icform-video {
+    width: 370px;
+}
+
+@media only screen and (min-width: 600px) {
+    .icontact-forms .row  {
+        display: flex;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .icontact-forms #TB_window {
+        width: 320px !important;
+        min-height: 300px;
+        left: 90% !important;
+    }
+    .icontact-forms #TB_ajaxContent {
+        width: 320px !important;
+        min-height: 300px;
+        padding: 0px !important;
+    }
+    .icontact-forms-top-menu {
+        padding-top: 40px;
+    }
+    .icontact-forms .column {
+        display: initial;
+    }
+    .icontact-forms .connected {
+        position: relative;
+        top: -65px;
+        right: -15px;
+    }
+
+    .icontact-forms .connected .status {
+        top: 0px;
+    }
+    .icontact-forms .submenu li {
+        padding-bottom: 0px;
+    }
+    #icform-table-toolbox p.search-box {
+        left: 10px;
+        width: 94%;
+    }    
+    .icform-video {
+        width: 320px;
+        height: 200px;
+    }    
+}

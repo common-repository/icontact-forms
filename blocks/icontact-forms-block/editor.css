@@ -1,0 +1,144 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+form.wp-block-icontact-forms-icontact-forms-block {
+	border: 1px solid black;
+	min-height: 165px;
+}
+
+.wp-block-icontact-forms-icontact-forms-block .icform-output {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.wp-block-icontact-forms-icontact-forms-block #icform-input {
+	width: 50%;
+	margin: 10px auto 0px auto;
+	display: block;
+	background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat;
+	background-position: right 10px center;
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+.wp-block-icontact-forms-icontact-forms-block .block-logo {
+	margin: auto;
+	display: block;
+	padding: 20px;
+}
+
+.wp-block-icontact-forms-icontact-forms-block #icforms-list {
+	width: 50%;
+	margin: 0px auto 20px auto;	
+	background-color: #f6f6f6;
+	min-width: 230px;
+	max-height: 200px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	border: 1px solid #ddd;
+	z-index: 1;	
+}
+
+.wp-block-icontact-forms-icontact-forms-block a {
+	color: #000 !important;
+	padding: 12px 16px;
+	text-decoration: none !important;
+	display: block;
+}
+
+.wp-block-icontact-forms-icontact-forms-block a:hover {
+	background-color: #ddd;
+}
+
+.wp-block-icontact-forms-icontact-forms-block .icform-input-tooltip {
+	position: static;
+	display: inline-block;
+	width: 100%;
+}
+
+.wp-block-icontact-forms-icontact-forms-block .icform-input-tooltip a {
+	padding: 3px 5px;
+}
+  
+.wp-block-icontact-forms-icontact-forms-block .icform-input-tooltip .icform-input-tooltiptext {
+	visibility: hidden;
+	width: 220px;
+	background-color: #121111;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+  
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	right: 13%;
+	top: 10%;
+
+  	/* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+  	opacity: 0;
+  	transition: opacity 1s;	
+  }
+  
+.wp-block-icontact-forms-icontact-forms-block .icform-input-tooltip .icform-input-tooltiptext::after {
+	content: " ";
+	position: absolute;
+	top: 100%; /* At the bottom of the tooltip */
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black transparent transparent transparent;
+}
+
+.wp-block-icontact-forms-icontact-forms-block .icform-input-tooltip:hover .icform-input-tooltiptext {
+	visibility: visible;
+	opacity: 1;
+}
+
+.wp-block-icontact-forms-icontact-forms-block .icform-tooltop-title {
+	background: #000000;
+	font-weight: bold;
+	font-size: smaller;
+}
+
+.wp-block-icontact-forms-icontact-forms-block .icform-input-tooltip .icform-input-tooltiptext ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.wp-block-icontact-forms-icontact-forms-block .icform-input-tooltip .icform-input-tooltiptext ul li {
+	font-size: small;
+}
+
+.wp-block-icontact-forms-icontact-forms-block .icform-preview-lists-info {
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin: 10px auto 20px auto;
+    border: solid 1px #afb1b4;
+}
+
+.wp-block-icontact-forms-icontact-forms-block .icform-preview-lists-info .icform-preview-lists-title {
+    border: solid 1px #afb1b4;
+}
+
+.wp-block-icontact-forms-icontact-forms-block .icform-preview-lists-info .icform-preview-lists-title span {
+    font-weight: bold;
+}
+
+.wp-block-icontact-forms-icontact-forms-block .icform-preview-lists-info ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.wp-block-icontact-forms-icontact-forms-block .hidden {
+	display: none;
+}
+
+.wp-block-icontact-forms-icontact-forms-block .show {
+	display: block;
+}
